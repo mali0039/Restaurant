@@ -1,0 +1,176 @@
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: salmon;
+    margin: 0;
+}
+.icon {
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    margin: 0px;
+    height: 50px;
+    width: 40px;
+}
+#icon-title {
+    position: fixed;
+    left: 40px;
+    font-size: 50px;
+    top: 5px;
+}
+#icon-title span {
+    font-size: 30px;
+    font-weight: bold;
+}
+#nav{
+    background-color: #663300;
+    display: flex;
+   justify-content: flex-end;
+}
+#nav a {
+    margin: 1em;
+    text-shadow: black 0px 0px 10px;
+    font-size: 1.3em;
+    color: gold;
+    text-decoration: none;
+}
+
+#title {
+    color: brown;
+    margin: 0 auto;
+    text-align: center;
+    background-color: salmon;
+    height: 200%;
+    background-image: url("peek.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+#main-text {
+    padding-top: 10%;
+    width: 40%;
+    margin: 0px;
+    line-height: 1.2em;
+    font-size: 5em;
+    color: black;
+}
+h1 {
+    line-height: 1.2em;
+    font-size: 5em;
+    color: black;
+}
+#title img {
+    float: right;
+    margin-right: 20%;
+    height: 5%;
+}
+#squatch {
+    color: gold;
+}
+
+#order-now {
+    margin-left: 10%;
+    width: 300px;
+    
+    animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px -10px gold;
+  }
+  to {
+    box-shadow: 0 0 10px 10px gold;
+  }
+}
+#order-now:hover {
+    color: gold;
+}
+#order-link {
+    text-decoration: none;
+}
+#footer {
+    position: fixed;
+    bottom: 0px;
+    background-image: url("grass.jpg");
+}
+@media screen and (min-width: 1500px) {
+    #main-text {
+        font-size: 6em;
+        line-height: 1.3em;
+    }
+    #order-now {
+        margin-left: 12%;
+    }
+}
+#contact-title {
+    text-align: center;
+}
+#contact-info {
+    text-align: center;
+}
+#contact-form {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5%;
+    border: 4px solid #663300;
+    width: 50%;
+    margin: 0 auto;
+}
+input {
+    line-height: 1.5em;
+    margin-bottom: 5%;
+}
+button {
+    background-color: #663300;;
+    border: none;
+    font-size: 20px;
+    color: gold;
+    border: 1px solid black;
+    margin-bottom: 1%;
+}
+#menu-title {
+    text-align: center;
+}
+#menu {
+    background-image: url("woodbackground.jpg");
+    width: 70%;
+    height: 100%;
+    color: black;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+#brand {
+    background-color: black;
+    color: white;
+    width: 92%;
+    font-size: 2em;
+    margin: 0 auto;
+}
+#brand h2 {
+    margin: 5% 0;
+}
+#brand p {
+    display: inline;
+    margin-left: 79%;
+    font-size: .5em;
+}
+#items {
+    margin-left: 4%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#items h2 {
+    letter-spacing: .3em;
+    margin-bottom: 0;
+}
+#items h3 {
+    margin-bottom: 0;
+}
+#items div {
+    width: 80%;
+}
+#items h4 {
+    text-align: right;
+    float: right;
+}
+#salads {
+}

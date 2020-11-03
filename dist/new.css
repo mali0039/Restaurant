@@ -1,0 +1,140 @@
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: #add8e6;
+    margin: 0;
+}
+.icon {
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    margin: 0px;
+    height: 50px;
+    width: 40px;
+}
+#icon-title {
+    position: fixed;
+    left: 40px;
+    font-size: 50px;
+    top: 5px;
+}
+#icon-title span {
+    font-size: 30px;
+    font-weight: bold;
+}
+#nav{
+    background-color: white;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+   justify-content: flex-end;
+}
+#nav a {
+    margin: 1em;
+    font-size: 1.3em;
+    color: #add8e6;
+    text-decoration: none;
+}
+#nav a:hover {
+    background-color: white;
+}
+#title {
+    color: #add8e6;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #add8e6;
+    height: 200%;
+    background-image: url("peek.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+#main-text {
+    padding-top: 10%;
+    width: 40%;
+    margin: 0px;
+    line-height: 1.2em;
+    font-size: 5em;
+    color: black;
+}
+h1 {
+    line-height: 1.2em;
+    font-size: 3em;
+    color: black;
+    margin-bottom: 0px;
+}
+#title img {
+    float: right;
+    margin-right: 20%;
+    height: 5%;
+}
+#squatch {
+    color: gold;
+}
+
+#order-now {
+    margin-left: 10%;
+    width: 300px;
+    
+    animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px -10px gold;
+  }
+  to {
+    box-shadow: 0 0 10px 10px gold;
+  }
+}
+#order-now:hover {
+    color: gold;
+}
+#order-link {
+    text-decoration: none;
+}
+#footer {
+    position: fixed;
+    bottom: 0px;
+    background-image: url("grass.jpg");
+}
+@media screen and (min-width: 1500px) {
+    #main-text {
+        font-size: 6em;
+        line-height: 1.3em;
+    }
+    #order-now {
+        margin-left: 12%;
+    }
+}
+#news-title {
+    margin-top: 6%;
+    text-align: center;
+}
+#news-title img {
+    width: 600px;
+    margin-top: 1%;
+}
+#items {
+    margin: 0 0 0 10%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+}
+#items div {
+    margin-top: 4%;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10%;
+}
+#items div:nth-of-type(2) {
+    margin-left: 4%;
+}
+#items div:nth-of-type(4) {
+    margin-left: 4%;
+}
+#items img {
+    width: 400px;
+}
+div p {
+    font-size: 23px;
+}
